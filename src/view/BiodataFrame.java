@@ -107,6 +107,13 @@ public class BiodataFrame extends JFrame {
 
         this.setSize(700, 700);
         this.setLayout(null);
+        
+        this.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                confirmExit();
+            }
+        });
     }
 
     public String getId() {
@@ -227,6 +234,22 @@ public class BiodataFrame extends JFrame {
             radioButtonL.setSelected(true);
         } else {
             radioButtonP.setSelected(true);
+        }
+    }
+    
+    private void confirmExit() {
+        int confirmed = JOptionPane.showConfirmDialog(null, 
+            "Apakah anda ingin menutup aplikasi?", "Confirm Exit",
+            JOptionPane.YES_NO_OPTION);
+
+        if (confirmed == JOptionPane.YES_OPTION) {
+            // Perform cleanup or additional actions before exiting
+            System.exit(0);
+        } else {
+             BiodataDao biodataDao = new BiodataDao();
+                
+                BiodataFrame biodataFrame = new BiodataFrame(biodataDao);
+                biodataFrame.setVisible(true);
         }
     }
 }
