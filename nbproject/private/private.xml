@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/model/Pekerjaan.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/view/BiodataButtonSimpanActionListener.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/dao/BiodataDao.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/view/BiodataTableModel.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/view/BiodataButtonEditActionListener.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/view/BiodataFrame.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/view/BiodataButtonDeleteActionListener.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/MyBiodata/MainFrame.java</file>
+            <file>file:/home/koji/NetBeansProjects/MyBiodata/src/db/MySqlConnection.java</file>
+        </group>
+    </open-files>
+</project-private>
